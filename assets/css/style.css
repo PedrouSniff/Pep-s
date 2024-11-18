@@ -1,0 +1,521 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    @font-face {
+        font-family: 'Roboto';
+        src: url(../lib/Roboto-Regular.ttf);
+    }
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    text-transform: uppercase;
+}
+
+             /* Header */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 4rem;
+}
+
+nav li {
+    border-right: solid black 2px;
+}
+
+li a {
+    color: black;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+nav li:last-child {
+    border:none
+}
+
+li a:hover {
+    color: white;
+    background-color: black;
+}
+
+nav img {
+    padding: 1rem;
+}
+
+             /* Bannière */
+
+#bannière {
+     background-image: url(../img/photo-1556139943-4bdca53adf1e\ 1.jpg);
+     background-size: cover;
+     padding: 6rem;
+}
+
+h2 {
+    display: flex;
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.button1 {
+    color: rgb(255, 255, 255);
+    margin-top: 3rem;
+    background-color: rgb(245, 13, 102);
+    font-size: large;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.button1:hover {
+    color: rgb(0, 0, 0);
+}
+
+             /* Première Partie */
+
+.visuel {
+    width: 50%;
+    margin-right: 2rem;
+    object-fit: cover;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 30px;
+}
+
+.pro {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+.groupe1 {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.coaching {
+    font-size: larger;
+    width: 50%;
+    margin-left: 2rem;
+
+}
+
+.liste1 {
+    margin-top: 2rem;
+    list-style: none;
+}
+
+h4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.liste1 li::before {
+    content: "-";
+    margin-right: 10px;
+}
+
+.titre2 {
+    margin-top: 2rem;
+}
+
+             /* Deuxième Partie */
+  
+.ligne1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+h5 {
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.groupe2 p {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.rligne {
+    display: block;
+}
+
+.groupe2 a{
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 2rem;
+    color: rgb(245, 13, 102);
+    border: solid rgb(245, 13, 102) 1px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.groupe2 a:hover {
+    color: white;
+    background-color: rgb(245, 13, 102);
+}
+
+.groupe2 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+             /* Troisième Partie */
+
+.groupe3 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.groupe3 h6 {
+    margin-top: 1rem;
+    font-size: large;
+    width: 280px;
+    height: 50px;
+}
+
+.poignets {
+    width: 85px;
+}
+
+.groupe3 p {
+    margin-top: 1rem;
+    width: 310px;
+    height: 100px;
+}
+
+.groupe4 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.groupe4 p {
+    margin-top: 1rem;
+    width: 310px;
+    height: 100px;
+}
+
+.groupe4 h6 {
+    margin-top: 1rem;
+    font-size: large;
+    width: 280px;
+    height: 50px;
+}
+
+.puzzle {
+    width: 65px;
+}
+
+i {
+    color: grey;
+}
+
+             /* Quatrième Partie */
+
+.groupe5 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.groupe5 h6 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.txt1 {
+    margin-top: 3rem;
+}
+
+.groupe5 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+             /* Cinquième Partie */
+
+.groupe6 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right:10rem;
+}
+
+.groupe6 h6 {
+    margin-bottom: 3rem;
+    font-size: larger;
+    z-index: 1;
+}
+
+.groupe6 p {
+    margin-bottom: 2rem;
+
+}
+
+.groupe6 .découverte {
+    margin-top: auto;
+    font-weight: bold;
+    border: solid rgb(245, 13, 102) 1px;
+    color: rgb(245, 13, 102);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.groupe6 div {
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    width: 250px;
+}
+
+h6 span {
+    display: block;
+}
+
+.bleu {
+    background-color: rgb(0, 183, 255);
+    bottom: 4rem;
+    padding-bottom: 1rem;
+    position: relative; 
+}
+
+.orange {
+    background-color: rgb(255, 196, 0);
+    bottom: 5rem;
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.violet {
+    background-color: rgb(201, 17, 201);
+    position: relative;
+    bottom: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.découverte:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(245, 13, 102);
+}
+
+.ligne2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.intersection {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 30px;
+}
+
+             /* Sixième Partie */
+
+article h6 {
+    font-size: 22px;
+}
+
+.temoignages {
+    display: flex;
+    text-align: center;
+    margin-top: 6rem;
+    justify-content: space-around;
+
+}
+
+article {
+    width: 24rem;
+    border: solid rgb(0, 217, 255) 2px;
+    height: 28rem;
+    position: relative;
+}
+
+article p { 
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+}
+
+article h6 {
+    margin-top: 1rem;
+}
+
+article img {
+    position: absolute;
+    top: -4rem;
+    right: 8rem;
+    width: 7rem;
+    height: 7rem;
+    border: solid white 8px
+}
+
+.texte_temoignage {
+    margin-top: 5rem;
+}
+
+             /* Intersection blog et temoignages */
+
+.intersection_blog{
+    margin-top: 4rem;
+}
+
+.intersection_blog h6 {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.intersection_blog p {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+             /* Septième Partie (BLOG) */
+
+.super_pouvoirs {
+    display: flex;
+    margin: 4rem;
+    margin-left: 6rem;
+}
+
+.super_pouvoirs img {
+    height: 156px;
+    width: 277px;
+}
+
+.texte_pouvoir {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+.texte_pouvoir h6 {
+    font-size: larger;
+}
+
+.texte_pouvoir p {
+    margin-top: 15px;
+}
+
+.texte_pouvoir a {
+    color: rgb(245, 13, 102);
+    border: solid rgb(245, 13, 102) 1px;
+    margin-right: 38rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 2rem;
+    border-radius: 10px;
+}
+
+.ligne3 {
+    height: 2px;
+    background-color: rgb(0, 217, 255);
+    width: 1050px;
+    margin-left: 9rem;
+}
+
+.entreprise img {
+    height: 156px;
+    width: 277px;
+}
+
+.entreprise {
+    display: flex;
+    margin: 4rem;
+    margin-left: 6rem;
+}
+
+.texte_entreprise {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+}
+
+.texte_entreprise h6 {
+    font-size: larger;
+}
+
+.texte_entreprise p {
+    margin-top: 15px;
+}
+
+.texte_entreprise a {
+    color: rgb(245, 13, 102);
+    border: solid rgb(245, 13, 102) 1px;
+    margin-right: 38rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 2rem;
+    border-radius: 10px;
+}
+
+.span_entreprise {
+    display: block;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog a:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgb(245, 13, 102);
+}
+
+             /* Footer */
+
+
+    
